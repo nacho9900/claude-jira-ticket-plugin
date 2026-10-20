@@ -1,0 +1,12 @@
+{
+  "name": "claude-jira-ticket-plugin",
+  "description": "The jira-ticket plugin for Claude Code",
+  "owner": { "name": "nacho9900", "url": "https://github.com/nacho9900" },
+  "plugins": [
+    {
+      "name": "jira-ticket",
+      "description": "Shows the Jira tickets a session works on, grouped under their parent, in a band above the prompt and a side pane",
+      "source": "./"
+    }
+  ]
+}
